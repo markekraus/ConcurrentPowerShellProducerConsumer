@@ -4,7 +4,7 @@
 
 > Concurrent computing is a form of computing in which several computations are executed during overlapping time periods—concurrently—instead of sequentially (one completing before the next starts). ([Wikipedia](https://en.wikipedia.org/wiki/Concurrent_computing))
 
-## Serial vs Concurrent vs Prallel
+## Serial vs Concurrent vs Parallel
 
 ### Serial
 
