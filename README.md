@@ -79,7 +79,7 @@ A quick recap of the available concurrent programming methods in PowerShell.
 
 ### PSThreadJob
 
-* PowerShell Team Module bu Paul Higinbotham
+* PowerShell Team Module by Paul Higinbotham
 * [https://github.com/PaulHigin/PSThreadJob](https://github.com/PaulHigin/PSThreadJob)
 * Abstract PowerShell Runspaces
 * Uses built-in Job cmdlets for management
