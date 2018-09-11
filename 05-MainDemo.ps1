@@ -240,10 +240,10 @@ $FileConsumerPool.Open()
     })
 }
 
-# create the File Consumer Pool
+# create the Log Consumer Pool
 $LogConsumerPool = [runspacefactory]::CreateRunspacePool(1,$LogConsumersCount)
 $LogConsumerPool.Open()
-# Create the File Consumer Runspaces
+# Create the Log Consumer Runspaces
 1..$LogConsumersCount | ForEach-Object {
     $ThreadName = 'LogConsumer{0:00}' -f $_
     $Runspace = [PowerShell]::Create()

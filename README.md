@@ -1,11 +1,22 @@
 # Concurrent Programming in PowerShell with the Producer Consumer Pattern
 
-## Topis
+## Topics
 
+* Who is Mark Kraus?
 * What is Concurrent Programming?
 * Examples of concurrent programming in PowerShell
 * What is the Producer-Consumer Pattern?
 * Demo
+
+## Who Is Mark Kraus
+
+![markekraus](https://avatars1.githubusercontent.com/u/6509955?s=100&v=4)
+
+* Senior Systems Engineer @ LinkedIn
+* PowerShell Core Project Collaborator
+* Web Cmdlets Contributor
+* Author of [Get-PowerShellBlog](https://get-powershellblog.blogspot.com/)
+* Co-Author of [The PowerShell Conference Book](https://leanpub.com/powershell-conference-book)
 
 ## What is Concurrent Computing?
 
@@ -271,3 +282,10 @@ if($FileConsumerStack.Count -lt 1) {
 * Toggling the number of File Producers and File Consumers
 * Can have more File producers than Folders
 * Single log consumer to prevent file locks
+
+## Links
+
+* [https://github.com/markekraus](https://github.com/markekraus)
+* Material: [https://github.com/markekraus/ConcurrentPowerShellProducerConsumer](https://github.com/markekraus/ConcurrentPowerShellProducerConsumer)
+* [https://get-powershellblog.blogspot.com/](https://get-powershellblog.blogspot.com/)
+* [@markekraus](https://twitter.com/markekraus)
