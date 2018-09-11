@@ -114,7 +114,7 @@ Get-Job | Wait-Job | Receive-Job
 
 ### Widget Factory Analogy
 
-<img src="https://i.imgur.com/UocNs4R.png" style="width: 30%; height:30%">
+<img src="https://i.imgur.com/UocNs4R.png" style="width: 80%; height:80%">
 
 The Widget Factory turns monads into widgets.
 
@@ -240,7 +240,7 @@ if($FileConsumerStack.Count -lt 1) {
 
 ### Demo
 
-<img src="https://i.imgur.com/tI4YyC9.png" style="width: 30%; height:30%">
+<img src="https://i.imgur.com/tI4YyC9.png" style="width: 80%; height:80%">
 
 * Enumerate files in multiple folders
 * Take the Filenames and reverse them
