@@ -88,38 +88,6 @@ A quick recap of the available concurrent programming methods in PowerShell.
 * PSThreadJob
 * Runspaces
 
-### PowerShell Jobs
-
-* Native to PowerShell
-* Seperate Process
-* `Start-Job` and friends
-
-[Jobs Demo](./01-JobsDemo.ps1)
-
-### PoshRSJob
-
-* Community module by Boe Prox
-* [https://github.com/proxb/PoshRSJob](https://github.com/proxb/PoshRSJob)
-* Abstracts PowerShell Runspaces
-
-[PoshRSJob Demo](./02-PoshRSJobDemo.ps1)
-
-### PSThreadJob
-
-* PowerShell Team Module by Paul Higinbotham
-* [https://github.com/PaulHigin/PSThreadJob](https://github.com/PaulHigin/PSThreadJob)
-* Abstract PowerShell Runspaces
-* Uses built-in Job cmdlets for management
-
-[PSThreadJob Demo](./03-PSThreadJobDemo.ps1)
-
-### Runspaces
-
-* Built-in PowerShell API
-* Raw .NET calls
-
-[Runspace Demo](./04-RunspaceDemo.ps1)
-
 ## Producer-Consumer Pattern
 
 ### What is the Produce-Consumer Pattern?
@@ -145,6 +113,8 @@ Get-Job | Wait-Job | Receive-Job
 * Increase and decrease Producers and consumers as needed
 
 ### Widget Factory Analogy
+
+<img src="https://i.imgur.com/UocNs4R.png" style="width: 30%; height:30%">
 
 The Widget Factory turns monads into widgets.
 
@@ -269,6 +239,8 @@ if($FileConsumerStack.Count -lt 1) {
 ```
 
 ### Demo
+
+<img src="https://i.imgur.com/tI4YyC9.png" style="width: 30%; height:30%">
 
 * Enumerate files in multiple folders
 * Take the Filenames and reverse them
